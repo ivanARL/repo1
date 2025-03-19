@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-DATA_URL = '../uber_dataset.csv'
+DATA_URL = 'uber_dataset.csv'
 DATE_COLUMN = 'Date/Time'
 
 @st.cache_data(ttl=60)  # Caché válido por 60 segundos
