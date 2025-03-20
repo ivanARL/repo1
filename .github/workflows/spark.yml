@@ -32,5 +32,7 @@ jobs:
         spark-version: '3.5.3'
         hadoop-version: '3'
 
-    - run: spark-submit --version
+    - run: spark-submit --master local hello-spark.py
+    - run: ls -la  
+
 
